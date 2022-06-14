@@ -1,0 +1,1074 @@
+@import url(./fonts/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Content - pageWrapper1_______________________________________________*/
+
+body {
+    background-color: gray;
+}
+
+.pageWrapper {
+    width: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content {
+    background: url("./gallery/main_background_mobil2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    height: 790px;
+}
+
+.menu_bars {
+    float: right;
+    padding: 30px;
+    color: #f5f5f5;
+    background-color: black;
+    border-radius: 0px 0px 0px 65px;
+}
+
+.menu_bars i:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.main_title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: 'Gemunu Libre1', sans-serif;
+    font-size: x-large;
+    letter-spacing: 0.7rem;
+    word-spacing: 0.5rem;
+}
+
+.main_icons ul {
+    list-style: none;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.main_icons ul li:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.main_icons ul li {
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* New Single */
+
+.bottom_content {
+    background-image: linear-gradient(#bfdbda, #f5f5f5);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.conciertosBtn {
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    margin-top: -6%;
+    margin-left: 165px;
+}
+
+.conciertosBtn h2 {
+    background-color: #f5f5f5;
+    padding-top: 12px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 2.5px solid #000;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: x-large;
+    letter-spacing: 0.2rem;
+}
+
+.conciertosBtn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.conciertosBtn a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.conciertosBtn h2:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.newSingle {
+    background-color: #f5f5f5;
+    margin: 130px 10% 70px 10%;
+    text-align: center;
+    height: auto;
+    border: 2.5px solid #000;
+    border-radius: 30px;
+}
+
+.nuevoSingle {
+    color: #fa5216;
+    padding-top: 15px;
+    font-family: "Helvetica", sans-serif;
+    font-size: larger;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.teSoltare {
+    color: #000;
+    padding-top: 5px;
+    font-family: "Helvetica Neue LT Std1", sans-serif;
+    font-size: x-large;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.3rem;
+}
+
+.disponibleSpotify {
+    color: #000;
+    padding-bottom: 20px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: large;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.disponibleSpotify i{
+    color: #1DB954;
+    font-size: 30px;
+}
+
+.disponibleSpotify i:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.escucharTeSoltare {
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: x-large;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+}
+
+.escucharTeSoltare i {
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.escucharTeSoltare i:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.newSingleImg {
+    height: 415px;
+    overflow: visible;
+}
+
+.newSingleImg img {
+    height: 415px;
+    margin-left: -5%;
+}
+
+/* Song List */
+
+.mis_grandes_exitos {
+    float: left;
+    padding-left: 40px;
+}
+
+.mis_grandes_exitos h1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+    word-spacing: 0.1rem;
+}
+
+.orangeDivider1 {
+    height: 5px;
+    width: 100px;
+    background-color: #fa5216;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.songs {
+    width: 480px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.song {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.song img {
+    height: 145px;
+}
+
+.song img:hover {
+    transform: scale(110%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.songInfo {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.songTitle {
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+.songIcons {
+    padding-top: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.songIcons i:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.iconOne {
+    padding-right: 120px;
+}
+
+.divider_song {
+    width: 83%;
+    height: 0.5px;
+    background-color: #000;
+    margin: 20px auto 20px auto;
+}
+
+.blankSpace {
+    height: 70px
+}
+
+/* Overlay Menu _____________________________________________________________*/
+
+.overlay {
+    position: fixed;
+    width: 480px;
+    height: 550px;
+    background-color: #000;
+    color: #f5f5f5;
+    border-bottom-right-radius: 35% 20%;
+    border-bottom-left-radius: 65% 20%;
+  }
+
+  .closeMenu {
+    float: right;
+    padding: 30px;
+    color: #000;
+    background-color: #fa5216;
+    border-radius: 0px 0px 0px 65px;
+    font-size: 20px;
+  }
+
+  .closeMenu i:hover {
+      cursor: pointer;
+      transform: scale(120%);
+      transition: transform 0.2s ease-in-out;
+  }
+
+  .overlayIcons {
+      margin: 30px 0px 0px 40px;
+      font-size: 25px;
+      float: left;
+      text-align: center;
+  }
+
+  .overlayIcons li {
+      padding-bottom: 20px;
+      list-style: none;
+  }
+
+  .overlayIcons li:hover {
+      transform: scale(120%);
+      transition: transform 0.2s ease-in-out;
+      cursor: pointer;
+  }
+
+  .overlayMenu {
+      margin: 135px 0 0 130px;
+  }
+
+  .overlayMenu ul {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .overlayMenu li {
+      color: #f5f5f5;
+      list-style: none;
+      font-family: "Gemunu Libre1", sans-serif;
+      font-size: 22px;
+      letter-spacing: 0.2rem;
+      padding-bottom: 15px;
+  }
+
+  .overlayMenu a:link {
+    text-decoration: none;
+    color: #f5f5f5;
+  }
+
+  .overlayMenu li:hover {
+      transform: scale(105%);
+      transition: transform 0.2s ease-in-out;
+  }
+
+  .overlayMenu a:visited {
+      color:#f5f5f5;
+  }
+
+  .overlayDivider {
+    height: 0.5px;
+    width: 90%;
+    background-color: #f5f5f5;
+    margin-bottom: 15px;
+  }
+
+
+/* Main Content  Page Wrapper2_______________________________________________*/
+
+.pageWrapper2 {
+    width: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* First Section */
+
+.firstSection {
+    background-image: url("../gallery/yellowbackground\ 2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 1000px;
+}
+
+.title_section2 {
+    color: #f5f5f5;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 21px;
+}
+
+.divider_section2 {
+    height: 5px;
+    width: 100px;
+    background-color: #fa5216;
+    margin-top: 7px;
+    margin-left: 40px;
+}
+
+/* Concerts */
+
+.concerts {
+    text-align: center;
+    margin: 50px 10px 50px 40px;
+}
+
+.concert {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.date_place {
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    font-family: "Gemunu Libre4", sans-serif;
+    font-size: 22px;
+}
+
+.place {
+    margin-left: 140px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.salaX {
+    font-family: "Helvetica Neue LT Std1", sans-serif;
+    padding-top: 3px;
+}
+
+.extraArtist {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding-top: 10px;
+    font-family: "Helvetica Neue LT Std1", sans-serif;
+    font-size: 17px;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.concert_divider {
+    background-color: #000;
+    width: 63%;
+    height: 1px;
+}
+
+.ticket {
+    height: 55px;
+    width: 150px;
+    background-color: #f5f5f5;
+    border: 2.5px solid #000;
+    border-radius: 10px;
+    margin-top: -25px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ticket:hover {
+    transform: scale(105%);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.ticket p {
+    margin: auto;
+}
+
+.dividerTilt {
+    background-color: #000;
+    width: 30%;
+    height: 1px;
+}
+
+.ticketTilt {
+    height: 55px;
+    width: 150px;
+    color: #f5f5f5;
+    background-color: #fa5216;
+    border: 2.5px solid #000;
+    border-radius: 10px;
+    margin-top: -25px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+    transform: rotate(-8deg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ticketTilt p {
+    margin: auto;
+}
+
+/* videos */
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.misVideos {
+    height: 150px;
+    width: 480px;
+    background-color: #f5f5f5;
+    font-family: "Helvetica" ,sans-serif;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.misVideos h1 {
+    float: left;
+    margin-left: 40px;
+}
+
+.videos_divider {
+    height: 5px;
+    width: 100px;
+    background-color: #fa5216;
+    margin-left: 40px;
+}
+
+.videos img{
+    width: 480px;
+}
+
+.visitCanal {
+    margin-top: -5px;
+    height: 150px;
+    width: 480px;
+    background-color: #f5f5f5;
+    font-family: "Helvetica" ,sans-serif;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.canalBtn {
+    margin: auto;
+    border: 2.5px solid rgb(94, 94, 94);
+    border-radius: 10px;
+    height: 55px;
+    width: 240px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 17px;
+    color: rgb(49, 49, 49);
+    letter-spacing: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.canalBtn h2:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* About Section */
+
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../gallery/aboutMeBackgroundDark.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 110%;
+    background-position-y: top;
+    background-position-x: right;
+    color: #f5f5f5;
+}
+
+.sobreMi {
+    margin-top: 70px;
+    margin-left: 40px;
+    
+}
+
+.sobreMi h1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+}
+
+.about_divider {
+    height: 5px;
+    width: 100px;
+    background-color: #fa5216;
+}
+
+.aboutArtist {
+    margin-left: 40px;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+.aboutArtist p {
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 21px;
+}
+
+.read_more_about {
+    margin-left: 40px;
+    padding-top: 20px;
+    color: #fa5216;
+    font-family: "Gemunu Libre3", sans-serif;
+}
+
+.read_more_about p:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.imgBack {
+    margin-top: 115px;
+    width: 440px;
+}
+
+.imgBack img {
+    width: 430px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.imgFront {
+    width: 400px;
+    position: relative;
+    top: -480px;
+    margin-bottom: -420px;
+}
+
+.imgFront img {
+    width: 380px;
+}
+
+.next_page_about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.square_about {
+    border: 2.5px solid #f5f5f5;
+    border-radius: 3px;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+}
+
+.square_about_1 {
+    background-color: #f5f5f5;
+}
+
+.square_about:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.arrow_about {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.arrow_about i:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.blankdiv_about {
+    height: 60px;
+    width: 480px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.escuchame {
+    margin: auto;
+    margin-top: -25px;
+    border: 2.5px solid #000;
+    border-radius: 10px;
+    height: 55px;
+    width: 170px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 17px;
+    color: #000;
+    background-color: #f5f5f5;
+    letter-spacing: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.escuchame:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Main Content Wrapper 3 ___________________________________________________*/
+
+.pageWrapper3 {
+    width: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* First Section */
+
+.firstSectionPage3 {
+    background-color: #f5f5f5;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+.title_wrapper3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.title_wrapper3 h1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+}
+
+.divider_wrapper3 {
+    height: 5px;
+    width: 100px;
+    background-color: #fa5216;
+}
+
+.image_actualidad {
+    padding-top: 20px;
+    text-align: center;
+} 
+
+.image_actualidad img {
+    width: 400px;
+}
+
+.information_actualidad {
+    margin: 40px 40px 0px 40px;
+}
+
+.information_actualidad h3 {
+    color: #fa5216;
+    font-family: "Gemunu Libre4", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+}
+
+.information p {
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 21px;
+}
+
+.read_more_details {
+    margin: 20px 0px 0px 40px;
+    color: #fa5216;
+    font-family: "Gemunu Libre3", sans-serif;
+    font-size: 17px;
+}
+
+.read_more_details p:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.next_page_details {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
+
+.square_details {
+    border: 2.5px solid #000;
+    border-radius: 3px;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+}
+
+.square_details_1 {
+    background-color: #000;
+}
+
+.square_details:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.arrow_details {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.arrow_details i:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Second Section */
+
+.second_section_wrapper3 {
+    background-color: #bcd4d3;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+.title_contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.title_contact h1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+}
+
+.divider_contact {
+    height: 5px;
+    width: 100px;
+    background-color: #fa5216;
+}
+
+.contactDetails {
+    margin: 60px 0px 0px 40px;
+}
+
+.contactDetails p {
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+}
+
+.contactDetails h1 {
+    padding-top: 15px;
+    font-family: "Gemunu Libre3", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.contactDetails h2 {
+    padding: 10px 0px 70px 0px;
+    font-family: "Gemunu Libre3", sans-serif;
+    font-size: 30px;
+}
+
+form {
+    margin: 90px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.inputDetails {
+    margin: 0px 40px 0px 15px;
+    width: 400px;
+    border: none;
+    outline: none;
+    background-color: #bcd4d3;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+.underline {
+    height: 0.5px;
+    width: 80%px;
+    background-color: rgb(49, 49, 49);
+    margin: 5px 0px 50px 0px;
+}
+
+textarea {
+    background-color: #bcd4d3;
+    outline: none;
+    border: 0.5px solid rgb(49, 49, 49);
+    border-radius: 25px;
+    height: 280px;
+    resize: none;
+    padding: 15px 0px 0px 15px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+.tick {
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    margin: 40px 0px 0px 20px;
+}
+
+.checkbox {
+    height: 15px;
+    width: 15px;
+    border: 0.5px solid rgb(49, 49, 49);
+    border-radius: 1px;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.tick p {
+    font-family: "Gemunu Libre1", sans-serif;
+    padding-left: 10px;
+}
+
+.enviar {
+    margin: 30px auto 180px auto;
+    border: 2.5px solid #000;
+    border-radius: 10px;
+    height: 55px;
+    width: 170px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.enviar h2:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Third Section */
+
+.third_section_wrapper3 {
+    background-color: #000;
+    border-top-left-radius: 35% 20%;
+    border-top-right-radius: 65% 20%;
+    color: #f5f5f5;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -125px;
+    height: 670px;
+}
+
+.title_footer {
+    margin-top: 95px;
+    font-family: 'Gemunu Libre1', sans-serif;
+    font-size: x-large;
+    letter-spacing: 0.7rem;
+    word-spacing: 0.5rem;
+}
+
+.icons_footer ul {
+    list-style: none;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 30px auto 60px auto;
+}
+
+.icons_footer ul li {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.icons_footer li:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu_footer ul {
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.25rem;
+    padding-bottom: 15px;
+    color: #f5f5f5;
+}
+
+.menu_list_footer li {
+    margin-bottom: 15px;
+    list-style: none;
+    color: #f5f5f5;
+}
+
+.menu_list_footer a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.menu_list_footer a:visited {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.menu_list_footer li:hover {
+    transform: scale(105%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.divider_footer {
+    height: 0.5px;
+    background-color: #f5f5f5;
+    width: 480px;
+    margin-top: 35px;
+}
+
+.copyrights p {
+    margin-top: 35px;
+    font-family: "Gemunu Libre1", sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+
+
+
+
