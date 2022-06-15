@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width"/>
+    <meta name="format-detection" content="telephone=no">
     <title>Rocio Ojuelos</title>
     <script src="https://kit.fontawesome.com/fa453d77c6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./stylesheet.css"/>
@@ -18,26 +19,26 @@
             </div>
             <div class="overlayIcons">
                 <ul>
-                    <li><i class="fa-brands fa-spotify"></i></li>
-                    <li><i class="fa-brands fa-youtube"></i></li>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-facebook-f"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li onclick="menuToggle()"><a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+                    <li onclick="menuToggle()"><a href="https://www.youtube.com/c/Roc%C3%ADoOjuelos" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li onclick="menuToggle()"><a href="https://www.instagram.com/rocio_ojuelos_oficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li onclick="menuToggle()"><a href="https://en-gb.facebook.com/RocioOjuelosOficial" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li onclick="menuToggle()"><a href="https://twitter.com/rocio_ojuelos" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </div>
             <div class="overlayMenu">
                 <ul>
-                    <li><a href="">escúchame</a></li>
+                    <li onclick="menuToggle()"><a href="#escuchame_link">escúchame</a></li>
                     <div class="overlayDivider"></div>
-                    <li><a href="./page2/page2.html">conciertos</a></li>
+                    <li onclick="menuToggle()"><a href="#conciertos_link">conciertos</a></li>
                     <div class="overlayDivider"></div>
-                    <li><a href="">mis videos</a></li>
+                    <li onclick="menuToggle()"><a href="#mis_videos_link">mis videos</a></li>
                     <div class="overlayDivider"></div>
-                    <li><a href="">conóceme</a></li>
+                    <li onclick="menuToggle()"><a href="#about_me_link">conóceme</a></li>
                     <div class="overlayDivider"></div>
-                    <li><a href="./page3/page3.html">actualidad</a></li>
+                    <li onclick="menuToggle()"><a href="#actualidad_link">actualidad</a></li>
                     <div class="overlayDivider"></div>
-                    <li><a href="">contacto</a></li>
+                    <li onclick="menuToggle()"><a href="#contacto_link">contacto</a></li>
                     <div class="overlayDivider"></div>
                 </ul>
             </div>    
@@ -54,29 +55,30 @@
             </div>
             <div class="main_icons">
                 <ul>
-                    <li><i class="fa-brands fa-spotify"></i></li>
-                    <li><i class="fa-brands fa-youtube"></i></li>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-facebook-f"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+                    <li><a href="https://www.youtube.com/c/Roc%C3%ADoOjuelos" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/rocio_ojuelos_oficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://en-gb.facebook.com/RocioOjuelosOficial" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/rocio_ojuelos" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </div>
         </div>
         <div class="bottom_content">
             <div class="conciertosBtn">
-                <h2><a href="./page2/page2.html">conciertos</a></h2>
+                <h2><a href="#conciertos_link">conciertos</a></h2>
             </div>  
             <div class="newSingle">
                 <div class="nuevoSingle"><h3>!NUEVO SINGLE!</h3></div>
                 <div class="teSoltare"><h2>TE SOLTARÉ</h2></div>
-                <div class="disponibleSpotify"><p>ya disponible en <i class="fa-brands fa-spotify"></i></p></div>
+                <div class="disponibleSpotify"><p>ya disponible en <a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="_blank"><i class="fa-brands fa-spotify"></i></a></p></div>
                 <div class="newSingleImg"><img src="./gallery/single.png" alt="newSingle"></div>
                 <div class="escucharTeSoltare"><h4>Escuchar - TE SOLTARÉ <i class="fa-solid fa-play"></i></h4></div>
             </div>
+            <a id="escuchame_link"></a>
             <div class="mis_grandes_exitos" data-aos="fade-up" data-aos-duration="1000"><h1>mis grandes<br>éxitos</h1></div>
             <div class="orangeDivider1" data-aos="fade-up" data-aos-duration="1000"></div>
-            <div class="songs">         
-                <div class="song" data-aos="fade-up" data-aos-duration="1000">
+            <div class="songs" data-aos="fade-up" data-aos-duration="1000">         
+                <div class="song">
                     <div class="songImg"><img src="./gallery/songlist1.png" alt="image"></div>
                     <div class="songInfo">
                         <div class="songTitle">
@@ -86,15 +88,15 @@
                             <div class="iconOne">
                                 <i class="fa-solid fa-play"></i>
                             </div>
-                            <div>    
-                                <i class="fa-brands fa-spotify"></i>
+                            <div class="spotify_icon">     
+                                <a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="blank"><i class="fa-brands fa-spotify"></i></a>
                                 <i class="fa-solid fa-circle-nodes"></i>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="divider_song"></div>
-                <div class="song" data-aos="fade-up" data-aos-duration="1000">
+                <div class="song">
                     <div class="songImg"><img src="./gallery/songlist2.png" alt="image"></div>
                     <div class="songInfo">
                         <div class="songTitle">
@@ -104,15 +106,15 @@
                             <div class="iconOne">
                                 <i class="fa-solid fa-play"></i>
                             </div>
-                            <div>    
-                                <i class="fa-brands fa-spotify"></i>
+                            <div class="spotify_icon">     
+                                <a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="blank"><i class="fa-brands fa-spotify"></i></a>
                                 <i class="fa-solid fa-circle-nodes"></i>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="divider_song"></div>
-                <div class="song" data-aos="fade-up" data-aos-duration="1000">
+                <div class="song">
                     <div class="songImg"><img src="./gallery/songlist3.png" alt="image"></div>
                     <div class="songInfo">
                         <div class="songTitle">
@@ -122,15 +124,15 @@
                             <div class="iconOne">
                                 <i class="fa-solid fa-play"></i>
                             </div>
-                            <div>    
-                                <i class="fa-brands fa-spotify"></i>
+                            <div class="spotify_icon">     
+                                <a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="blank"><i class="fa-brands fa-spotify"></i></a>
                                 <i class="fa-solid fa-circle-nodes"></i>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="divider_song"></div>
-                <div class="song" data-aos="fade-up" data-aos-duration="1000">
+                <div class="song">
                     <div class="songImg"><img src="./gallery/songlist4.png" alt="image"></div>
                     <div class="songInfo">
                         <div class="songTitle">
@@ -140,15 +142,15 @@
                             <div class="iconOne">
                                 <i class="fa-solid fa-play"></i>
                             </div>
-                            <div>    
-                                <i class="fa-brands fa-spotify"></i>
+                            <div class="spotify_icon">     
+                                <a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="blank"><i class="fa-brands fa-spotify"></i></a>
                                 <i class="fa-solid fa-circle-nodes"></i>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="divider_song"></div>
-                <div class="song" data-aos="fade-up" data-aos-duration="1000">
+                <div class="song">
                     <div class="songImg"><img src="./gallery/songlist5.png" alt="image"></div>
                     <div class="songInfo">
                         <div class="songTitle">
@@ -158,8 +160,8 @@
                             <div class="iconOne">
                                 <i class="fa-solid fa-play"></i>
                             </div>
-                            <div>    
-                                <i class="fa-brands fa-spotify"></i>
+                            <div class="spotify_icon">    
+                                <a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="blank"><i class="fa-brands fa-spotify"></i></a>
                                 <i class="fa-solid fa-circle-nodes"></i>
                             </div>
                         </div>
@@ -172,6 +174,7 @@
     </div>
     <div class="pageWrapper2">
         <div class="firstSection">
+            <a id="conciertos_link"></a>
             <div class="title_section2" data-aos="fade-up" data-aos-duration="1000">
                 <h1>¡TE ESPERO<br>EN EL ESCENARIO!</h1>
             </div>
@@ -236,6 +239,7 @@
             </div>
         </div>
         <div class="secondSection">
+            <a id="mis_videos_link"></a>
             <div class="misVideos">
                 <h1 data-aos="fade-up" data-aos-duration="1000">mis videos</h1>
                 <div class="videos_divider" data-aos="fade-up" data-aos-duration="1000"></div>
@@ -243,10 +247,11 @@
             <div class="videos"><img src="./gallery/videosbackground.png" alt="videos" ></div>
             <div class="visitCanal">
                 <div class="canalBtn" data-aos="fade-up" data-aos-duration="1000">
-                    <h2>visitar canal <i class="fa-brands fa-youtube"></i></h2>
+                    <a href="https://www.youtube.com/c/Roc%C3%ADoOjuelos" target="_blank"><h2>visitar canal <i class="fa-brands fa-youtube"></i></h2></a>
                 </div>
             </div>
         </div>
+        <a id="about_me_link"></a>
         <div class="thirdSection">
             <div class="sobreMi" data-aos="fade-up" data-aos-duration="1000">
                 <h1>sobre mi</h1>
@@ -255,10 +260,10 @@
             <div class="aboutArtist" data-aos="fade-up" data-aos-duration="1000">
                 <p>Rocio Ojuelos, nacida en 1996 en Lucena del Puerto (Huelva), es una cantautora con una larga proyección musical.</p>
                 <br>
-                <p>Se dio a conocer gracias a un vídeo que una amiga publicó en redes y se hizo viral, el propio Antonio Orozco lo compartió. En 2017, Illegó a ser finalista de...</p>
+                <p>Se dio a conocer gracias a un vídeo que una amiga publicó en redes y se hizo viral, el propio Antonio Orozco lo compartió. En 2017, Illegó a ser finalista de<span id="span_dots">...</span><span id="span_more">&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
             </div>
-            <div class="read_more_about" data-aos="fade-up" data-aos-duration="1000">
-                <p>+ leer más</p>
+            <div class="read_more_about" id="read_more_about_btn" onclick="readMoreInfo()" data-aos="fade-up" data-aos-duration="1000">
+                <p id="mas_ocultar">+ leer más</p>
             </div>
             <div class="imgBack">
                 <img src="./gallery/aboutme2.png" alt="img">
@@ -276,10 +281,11 @@
             </div>   
         </div>
            <div class="blankdiv_about">
-                <div class="escuchame"><h2>escúchame</h2></div>
+                <div class="escuchame"><a href="#escuchame_link"><h2>escúchame</h2></a></div>
             </div>
     </div>
     <div class="pageWrapper3">
+        <a id="actualidad_link"></a>
         <div class="firstSectionPage3">
             <div class="title_wrapper3" data-aos="fade-up" data-aos-duration="1000">
                 <h1>actualidad</h1>
@@ -289,9 +295,11 @@
             <div class="information_actualidad">
                 <h3>La onubense Rocío Ojuelos estrena ‘Duele’, una desgarradora balada</h3>
                 <br>
-                <p>La cantautora ya había presentado esta canción de forma inédita durante su reciente gira de salas, junto con otros dos temas que formarán parte del futuro álbum. ‘’Vosotros, mis seguidores más fieles...</p>
+                <p>La cantautora ya había presentado esta canción de forma inédita durante su reciente gira de salas, junto con otros dos temas que formarán parte del futuro álbum. ‘’Vosotros, mis seguidores más fieles<span id="span_dots2">...</span><span id="span_more2">&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
             </div>
-            <div class="read_more_details"><p>+ leer más</p></div>
+            <div class="read_more_about" id="read_more_about_btn2" onclick="readMoreInfo2()">
+                <p id="mas_ocultar2">+ leer más</p>
+            </div>
             <div class="next_page_details">
                 <span class="square_details square_details_1"></span>
                 <span class="square_details"></span>
@@ -302,11 +310,12 @@
             </div> 
         </div>
         <div class="second_section_wrapper3">
+            <a id="contacto_link"></a>
             <div class="title_contact" data-aos="fade-up" data-aos-duration="1000">
                 <h1>contacto</h1>
                 <div class="divider_contact"></div>
             </div>
-            <div class="contactDetails">
+            <div class="contactDetails" data-aos="fade-up" data-aos-duration="1000">
                 <p>Contratación</p>
                 <h1>656 253 666</h1>
                 <h2>manager@rocioojuelos.com</h2>
@@ -321,11 +330,11 @@
                 <div class="underline"></div>
                 <textarea class="comments" placeholder="Comentario"></textarea>
                 <div class="tick" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="checkbox"></div>
+                    <div class="checkbox" id="checkbox" onclick="tickCheckbox()"></div>
                     <p>He leido y acepto los términos y condiciones</p>
                 </div>
             </form>
-            <div class="enviar" data-aos="fade-up" data-aos-duration="1000"><h2>enviar</h2></div>
+            <div class="enviar" data-aos="fade-up" data-aos-duration="1000"><a href="" type="submit"><h2>enviar</h2></a></div>
         </div>
         <div class="third_section_wrapper3">
             <div class="title_footer">
@@ -333,21 +342,21 @@
             </div>
             <div class="icons_footer">
                 <ul>
-                    <li><i class="fa-brands fa-spotify"></i></li>
-                    <li><i class="fa-brands fa-youtube"></i></li>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-facebook-f"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><a href="https://open.spotify.com/artist/2qw2bM2FOqesfaWJybn7M5" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+                    <li><a href="https://www.youtube.com/c/Roc%C3%ADoOjuelos" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/rocio_ojuelos_oficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://en-gb.facebook.com/RocioOjuelosOficial" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/rocio_ojuelos" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </div>
             <div class="menu_footer">
                 <ul class="menu_list_footer">
-                    <li><a href="">escúchame</a></li>
-                    <li><a href="">conciertos</a></li>
-                    <li><a href="">mis videos</a></li>
-                    <li><a href="">conóceme</a></li>                   
-                    <li><a href="">actualidad</a></li>
-                    <li><a href="">contacto</a></li>
+                    <li><a href="#escuchame_link">escúchame</a></li>
+                    <li><a href="#conciertos_link">conciertos</a></li>
+                    <li><a href="#mis_videos_link">mis videos</a></li>
+                    <li><a href="#about_me_link">conóceme</a></li>                   
+                    <li><a href="#actualidad_link">actualidad</a></li>
+                    <li><a href="#contacto_link">contacto</a></li>
                 </ul>
             </div>
             <div class="divider_footer"></div>
@@ -356,13 +365,11 @@
             </div>                    
         </div>
     </div>
-
     <script src="app.js"></script>
     <!-- Scroll Animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    
 </body>
 </html>
